@@ -18,7 +18,7 @@ export default function Login(){
       <div className="card" style={{width:380, maxWidth:'94%'}}>
         <div style={{display:'flex', alignItems:'center', gap:10, marginBottom:12}}>
           <span style={{fontSize:24}}>💊</span>
-          <h2 style={{margin:0}}>Iniciar sesión</h2>
+          <h2 style={{margin:0}}>Iniciar</h2>
         </div>
         <p style={{opacity:.8, marginTop:0}}>Usa tus credenciales de empleado</p>
         <form onSubmit={handleSubmit} className="grid" style={{gap:12}}>
