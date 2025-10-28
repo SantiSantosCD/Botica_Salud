@@ -38,7 +38,7 @@ export default function Dashboard(){
         </div>
         <div className="card kpi">
           <div>
-            <small>Productos con bajo stock</small>
+            <small>bajo stock</small>
             <div><strong>{metrics?.bajoStock || metrics?.stock_bajo || 0}</strong></div>
           </div>
           <div>⚠️</div>
